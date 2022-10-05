@@ -1,0 +1,67 @@
+/* .main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+#active {
+    background-color: white;
+    color: steelblue;
+} */
+img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgb(241, 12, 146);
+}
+a {
+    font-size: 1.5em;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+
+}
+nav, footer {
+    text-align: center;
+    
+    color: black;
+    padding: 10px;
+    
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+a:hover {
+    color: black;
+}
+
+body {
+    background-color: rgb(243, 160, 208);
+}
+
+
+
