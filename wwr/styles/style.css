@@ -1,6 +1,69 @@
-body {
-    background-color: #fcfbfb; 
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Roboto:wght@300&display=swap');
+
+.home-title {
+    color: black;
+    font-family: 'Arial', 'Roboto', 'Grechen Fuemen' ;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.book, .join {
+    background-color:  #b38a3d;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}   
+
+.msg p {
+    color: #fcfbfb;
+    padding-bottom: 15px;
+    font-size: .8em;
+}
+
+
+.msg{
+    background-color:  #374044;
+    line-height: 1.5em;
+    padding: 35px;
+    margin: 200px 0;     /* I added margin: 200px 0 */
+
+}
+
+.msg h2 {
+    color: #fcfbfb;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     
+}
+
+body {
+    background-color: #fcfbfb;
+    font-family: Grechen Fuemen, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 #content{
@@ -11,7 +74,9 @@ body {
 
 #background {
     height: 725px;
-    background-color:  #b38a3d
+    background-color:  #b38a3d;
+    margin: 100px 0;     /* I added margin 100px 0  */
+
 }
 
 header {
@@ -24,21 +89,9 @@ nav a:hover{
             
 }
 
-.book, .join {
-    background-color:  #b38a3d;
-    color: black;
-    text-decoration: none;
-}
-
 .book:hover, .join:hover {
     background-color:  rgb(245, 169, 126);
     color: #303335
-}
-
-nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -50,57 +103,50 @@ nav a {
 }
 
 main section{
-
     text-align: center;
 }
 
-
-.msg{
-    background-color:  #374044 
-    
-}
-
-.msg h2 {
-    color: #fcfbfb;
-}
-.msg p {
-    color: #fcfbfb;
-}
-
 footer {
-    background-color:#374044
-    
+    background-color:#374044;
+    padding: 25px 50px;
+    margin-top: 200px;
     
 }
+
+footer .social img {
+    padding-top: 15px;
+}   
 
 footer h3 {
-    color: #374044
+    color: #374044;
+    
 }
 
 footer a {
     color: white;
     text-decoration: none;
+    
 }
 
 footer a:hover {
     color: #b38a3d;
+    
 }
 
 footer p {
     font-size: 1.2em;
     color: white;
+    
 } 
 
 footer p a:hover {
     text-decoration: underline;
+    
 }    
-
-.home-title {
-    color: black;
-}
 
 h4 {
     color: black;
+    
 }
 
 .logo {
@@ -109,8 +155,17 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
     width: 100%
+}
+
+.card-img {
+    border: 10px solid #b38a3d;
+}
+
+main section img {
+    box-sizing: border-box;
 }

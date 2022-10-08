@@ -13,7 +13,7 @@ Fonts are separated by a & */
 
 
   --heading-font: "Grechen Fuemen";
-  --paragraph-font: Roboto, Arial, Impact;
+  --paragraph-font: Roboto, Arial, Helvetica;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: black;  /* headlines on a white background */ 

@@ -1,0 +1,25 @@
+
+h4 {
+    color: black;
+}
+
+.logo {
+    width: 220px;
+    margin: 85px;
+    border-radius: 230px;
+    border: 15px solid rgb(59, 57, 57);
+    
+    
+}
+header {
+    background-color: #7b7e80
+}
+
+
+#content{
+    max-width: 1281px;
+    margin: 0 auto;
+
+}
+
+    

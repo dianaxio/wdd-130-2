@@ -10,16 +10,20 @@ img {
     width: 10%;
     display: block;
     margin: 0 auto;
+    
 }
 main p {
     width: 80%;
     margin: 50px auto;
     text-align: center;
     background-color: rgb(241, 12, 146);
+    
 }
 a {
     font-size: 1.5em;
     color: white;
+    text-decoration: none;
+    
 }
 
 h1 {
@@ -35,6 +39,7 @@ h2 {
 h4 {
     text-align: center;
     font-size: 1.1em;
+    
 }
 
 h3 {
@@ -45,7 +50,6 @@ h3 {
 }
 nav, footer {
     text-align: center;
-    
     color: black;
     padding: 10px;
     
@@ -53,6 +57,7 @@ nav, footer {
 footer p {
     font-size: 20px;
     margin: 20px auto;
+    
 }
 
 a:hover {
@@ -61,6 +66,7 @@ a:hover {
 
 body {
     background-color: rgb(243, 160, 208);
+    
 }
 
 
