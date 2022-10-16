@@ -22,4 +22,16 @@ header {
 
 }
 
+footer {
+    padding: 15px;
+    display: flex;
+    background-color: #7b7e80;
+    margin: -4px;
+    width: 1325px;
     
+}
+
+img {
+    width: 1350px;
+    
+}
