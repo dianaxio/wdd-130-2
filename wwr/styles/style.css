@@ -137,9 +137,7 @@ a {
 nav {
     display: flex;
     justify-content: space-around;
-
 }
-
 
 #hero-box {
     grid-column: 1/4;
@@ -161,8 +159,6 @@ nav {
 
 #hero-msg h1 {
     text-align: center;
-
-
 }
 
 .rivers-card {
@@ -207,13 +203,6 @@ nav {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #374044;
 }
-/* .msg {
-    background-color: #6f7364;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-} */
 
 #hero {
     display: grid;
@@ -228,11 +217,6 @@ header {
     grid-template-columns: 150px auto;
 
 }
-
-/* header a {
-    opacity: 1.5;
-} */
-
 
 nav a {
     text-decoration: none;

@@ -29,7 +29,20 @@
     font-size: 18px;
     text-align: center;
   }
-  img {
+
+  .card-img {
+    display: block;
+    margin: 40px auto;
+    max-width: 600px;
+    box-shadow: 5px 5px 10px #284454;
+    border: 1px solid #284454;
+    transition: transform .5s;
+  }
+  .card-img:hover {
+    opacity: .9;
+    transform: scale(1.1);
+  }
+  .logo {
     display: block;
     margin: 0 auto;
     max-width: 300px;
