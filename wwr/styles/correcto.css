@@ -202,7 +202,6 @@ nav {
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #374044;
-    
 }
 
 #hero {
@@ -264,88 +263,82 @@ footer {
     font-family: 'Grechen Fuemen','Roboto', 'Helvetica';
     font-size: 50px;
     letter-spacing: 3px;
-    color: #f1d7a5;
-    margin: 35px 0;
+    color: #f7deb1;
+    margin: 100px 0;
     grid-column: 2/8;
     grid-row: 1/2;
     justify-self: stretch;
     text-align: center;
 }
-.salmon, .desolation {
+
+.river1-text p, .river2-text p {
+    font-family: 'Roboto', 'Helvetica';
+    font-size: 22px;
+}
+.river1-img, .river2-img {
     border: 10px solid #b38a3d;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     width: 40%;
+    grid-column: 8/10;
+    grid-row: 2/3;
 }
 
-.salmon:hover, .desolation:hover {
+.river1-img:hover, .river2-img:hover {
     opacity: .9;
     transform: scale(1.1);
 }
-.salmon{
-    margin-left: 810px;
-    height: 350px;
-    width: 35%;
-    position: relative;
-    top: 70px;
-}
-.desolation {
-    margin-left: 60px;
-    height: 350px;
-    width: 35%;
-    position: relative;
-    top: 150px;
-}
-.ms p{
-    font-size: .8em;
-    margin: 120px 0;
-    width: 40%;
-    box-shadow: 5px 5px 10px 5px #6f7364;
-    padding-bottom: 20px;
-    padding-left: 15px;
-}    
-.ms h2{
-    margin: -300px 0;
-    padding-bottom: 200px;
-    top: 150px;
-    font-size: 30px;
-    margin-left: 10px;
-}
-.ms{
-    line-height: 1.5em;
-    margin: -10px 0;
-    font-family: 'Roboto', 'Helvetica';
-    font-size: 22px;
-    margin-left: 55px;
-}        
-.mp p{
-    font-size: .8em;
-    margin: 200px 0;
-    padding-bottom: 20px;
-    width: 80%;
-    margin-left: 10px;
-    box-shadow: 5px 5px 10px 5px #6f7364;
-    padding-left: 10px;
-}    
-.mp h2{
-    margin: -380px 0;
-    padding-bottom: 200px;
-    top: 150px;
-    width: 90%;
-    margin-left: 15px;
-    font-size: 30px;  
-}
-.mp{
-    line-height: 1.5em;
-    padding: 0px;
-    margin: 165px 0;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    font-family: 'Roboto', 'Helvetica';
-    font-size: 22px;
+
+.river1-img{
     margin-left: 800px;
-    width: 45%;
-}  
+    height: 350px;
+    width: 35%;
+    position: relative;
+    top: 140px;
+}
+
+.river1-img h2{
+    text-align:left;
+}
+
+.river2-img {
+    margin-left: 55px;
+    height: 350px;
+    width: 35%;
+    position: relative;
+    top: 150px;
+}
+
+.river2-text h2{
+    text-align:right;
+}
+
+.river2-text p{
+    text-align:right;
+}
+
+.river1-text p{
+    color: black;
+    padding-bottom: 15px;
+    
+}
+
+.river2-text p {
+    color: black;
+    padding-bottom: 15px;
+    text-align:right;
+}
+
+.river1-text h2, .river2-text h2 {
+    color: black;
+}
+
+.river2-text h2{
+    text-align:right;
+}
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -390,98 +383,40 @@ footer {
     }
 
     /* Code for the new subpage (rivers.css) */
-    .rivers-grid {
-        font-family: 'Grechen Fuemen','Roboto', 'Helvetica';
-        font-size: 50px;
-        letter-spacing: 3px;
-        color: #575552;
-        margin: 35px 0;
-        justify-self: stretch;
-        text-align: center;
+    .rivers-grid{
+        font-size: 36px;
+        color: #6f7364;
+        margin-top: 40px;
     }
-    
-    
-    .salmon, .desolation {
-        border: 10px solid #b38a3d;
-        transition: transform .5s;
-        box-shadow: 5px 5px 10px #6f7364;
+
+    .river2-img {
+        margin: 50px auto;
         width: 40%;
-       
+        margin-left: 20px;
+        height: 240px;
+        top: 120px;
     }
-    
-    .salmon:hover, .desolation:hover {
-        opacity: .9;
-        transform: scale(1.1);
-    }
-    
-    .salmon{
-        margin-left: 410px;
-        height: 200px;
-        width: 30%;
+    .river1-img{
+        margin: -50px auto;
+        margin-left: 355px;
+        height: 240px;
+        width: 40%;
         position: relative;
-        top: 70px;
+        top: 130px;
+    }
+
+    .river2-text h2{
+        text-align:right;
     }
     
-    .desolation {
-        margin-left: 30px;
-        height: 200px;
-        width: 30%;
-        position: relative;
-        top: -15px;
+    .river2-text p{
+        text-align:right;
     }
-    
-    
-    .ms p{
-        font-size: .6em;
-        margin: 120px 0;
-        width: 50%;
-        box-shadow: 5px 5px 10px 5px #6f7364;
-        padding-left: 1px;
-    }    
-    
-    
-    .ms h2{
-        margin: -360px 0;
-        padding-bottom: 250px;
-        font-size: 20px;
-        margin-left: -10px;
-    }
-    .ms{
-        line-height: .9em;
-        margin: 190px 0;
+    .river1-text p, .river2-text p {
         font-family: 'Roboto', 'Helvetica';
-        font-size: 22px;
-        margin-left: 30px;
-        
-        
-    }        
-    .mp p{
-        font-size: .6em;
-        margin: 145px 0;
-        padding-bottom: 20px;
-        width: 100%;
-        margin-left: -480px;
-        box-shadow: 5px 5px 10px 5px #6f7364;
-        padding-left: 10px;
-    
-    }    
-    
-    .mp h2{
-        margin: -380px 0;
-        padding-bottom: 250px;
-        top: 150px;
-        width: 120%;
-        margin-left: -485px;
+        font-size: 15px;
+    }
+    .river1-text h2, .river2-text h2{
         font-size: 20px;
     }
-    .mp{
-        line-height: .9em;
-        padding: 0px;
-        margin: 120px 0;
-        font-family: 'Roboto', 'Helvetica';
-        font-size: 22px;
-        margin-left: 800px;
-        width: 45%;
-    }  
-        
 }
