@@ -88,18 +88,14 @@ header > div > img.web-logo {
     padding-top: 2%;
 }
 .s img{
-    width: 280px;
-    padding: 10px;
     box-shadow: 1px 1px 20px rgba(0,0,0,0.7);
     transition: all 0.5s, left 1s;
-    left: calc(80% - 200px);
+    left: calc(79% - 200px);
     position: absolute;
     margin: 5px 0 0 0;
     height: 240px;
     width: 300px;
-    border: none;
     padding: 0;
-    
     max-width: 300px;
     margin-top: 0px;
     border-radius: 10px;
@@ -107,7 +103,6 @@ header > div > img.web-logo {
     border-left: 20px;
     box-shadow: 5px 5px 10px #284454;
 }
-
 nav {
     line-height: 2rem;
     text-align: center;
@@ -195,7 +190,6 @@ section > div {
 section > div > img, section.dif-grid > img {
     width: 330px;
     padding: 10px;
-    margin-top: 60px;
     border-radius: 5px;
     border: 1px solid #ccc;
     box-shadow: 5px 5px 10px #284454;
@@ -309,7 +303,7 @@ section > p, section > div > p {
 }
 section.not-grid, div.photo-spotlight {
     display: block;
-    
+ 
 }
 
 section.about {
@@ -319,14 +313,12 @@ section.about {
 
     /*  esto sirve para dar ancho a la imagen de la segunda recata some things en ABOUT*/
     grid-gap: 50px;
-
 }
 
 /*  ABOUT------ */
 .not-grid h2{
     padding-top: 35px;
 }
-
 .about img{
     padding: 10px;
     margin-top: 45px;
@@ -336,7 +328,6 @@ section.about {
     height: 240px;
     padding: 0px;
     max-width: 300px;
-    
 }
 
 /* AQUI ORGANICE SOLO LAS IMAGENES QUE SON 2  */
@@ -351,9 +342,7 @@ section.about {
     padding: 0;
     border: 2px solid #ccc;
     box-shadow: 5px 5px 10px #284454;
-    
 }   
- 
 
 /*  Con esto se puede bajar ADVISING  EN INDEX HOME*/
 .contract {
@@ -375,9 +364,7 @@ section.about {
     max-width: 300px;
     margin-top: 40px;
     padding: 0;
-    
 }
-
 div.photo-spotlight {
     border: solid 1px gray;
     margin: 50px auto 10px auto;
@@ -394,8 +381,6 @@ div.photo-spotlight > div {
     perspective: 800px;
     perspective-origin: center calc(50% + 20px);
 }
-
-
 div.photo-spotlight > div > img{
     box-shadow: 1px 1px 20px rgba(0,0,0,0.7);
     transition: all 0.5s, left 1s;
@@ -501,7 +486,6 @@ div.photo-spotlight button#go-left {
 div.photo-spotlight button#go-right {
     right: -20px;
 }
-
 div.cover-header {
     background-image: url("../images/paper-fixed.jpg");
     background-position: top;
@@ -535,75 +519,60 @@ form > section:nth-of-type(2) {
     padding-bottom: 40px;
 }
 
-
 /* LEGAL INFO AJUSTA PARRAFOS */
 section.dif-grid {
-    padding-top: 90px;
+    padding-top: 100px;
     display: grid;
     grid-template-columns: 200px auto;
     grid-gap: 40px;
-    width: 80%;
-}
-section.dif-grid h3 {
-    text-align: center;
-    padding-left: 50px;
-    width: 40px;
+    width: 78%;
 }
 section.dif-grid:nth-of-type(1) {
     grid-template-columns: 300px auto;
 }
 section.dif-grid:nth-of-type(1) > img {
     margin: 0;
-    width: calc(300px - 22px);
 }
-section.dif-grid > img {
-    margin: 0;
-    width: calc(200px - 22px);
-    margin-top: 50px;   
-}
+
 section.dif-grid > div {
-    padding-top: 10px;
+    padding-top: 0px;
 }
 /* ALINEA EL TEXTO principal (LEGAL INFO) DE THE CAREER  */
 section.dif-grid p {
-    margin-bottom: 100px;
-    width: 85%;
-    padding-left: 100px;
+    margin-bottom: 190px;
+    width: 86%;
+    padding-left: 110px;
 }
 section.dif-grid h2 {
-    padding-left: 20%;
+    padding-left: 31%;
+    margin-top: -20px;
 }
 
 /* MARGIN- BOTTON AJUSTA ESPACIO EN BLANCO DEL FINAL -THE CAREER- INFO LEGAL */
 section.df p{
-    width: 55%;
-    padding-left: 440px;
-    margin: 0;
-    margin-bottom: -50px;
+    width: 54%;
+    padding-left: 451px;    
+    
 }
 section.df {
-    margin-bottom: 100px;
     width: 70%;
 }
 section.df h3{
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 5px;
-    width: 55%;
     padding-left: 535px;
 }
 section.df img{
-    padding: 10px;
-    margin-top: 100px;
     box-shadow: 1px 1px 20px rgba(0,0,0,0.7);
     transition: all 0.5s, left 1s;
-    right: calc(77% - 200px);
+    right: calc(79% - 200px);
     position: absolute;
     margin: 5px 0 0 0;
     height: 240px;
     border: none;
     padding: 0;
     max-width: 300px;
-    margin-top: 80px;
+    margin-top: 85px;
     border-radius: 10px;
     border: 2px solid #ccc;
     box-shadow: 5px 5px 10px #284454;
@@ -613,7 +582,7 @@ section.df img{
 .s h3{
     padding-left: 150px;
     margin-bottom: 5px;
-    margin-top: -5px;
+    margin-top: 0px;
 }
 
 section.dif-grid ul {
@@ -687,7 +656,7 @@ footer p {
     padding-top: 20px;
     text-align: center;
     padding-left: 25px;
-    width: 60%;
+    width: 65%;
     font-size: 1.1em;
 }
 .bottom {
@@ -702,27 +671,23 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 65px;
+    height: 70px;
     text-align: center;
 }
+
+/* rigth mueve la imagen der o izq */
 section.dif-grid > img {
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 5px;
-    height: 240px;
-    margin-top: 100px;
+    margin-top: 0px;
     box-shadow: 1px 1px 20px rgba(0,0,0,0.7);
     transition: all 0.5s, left 1s;
-    right: calc(80% - 200px);
+    right: calc(79% - 200px);
     position: absolute;
-    margin: 5px 0 0 0;
-    height: 230px;
+    height: 242px;
     padding: 0;
     max-width: 300px;
-    margin-top: 100px;
     border-radius: 10px;
     border: 2px solid #ccc;
-    border-left: 20px;
+    border-left: 0px;
     box-shadow: 5px 5px 10px #284454;
 }
 
@@ -836,4 +801,122 @@ footer p {
         margin-left: calc(50% - 835px / 2);
         width: 350px;
     }
+
+    /* Legal info */
+    section.dif-grid img{
+        box-shadow: 1px 1px 20px rgba(0,0,0,0.7);
+        transition: all 0.5s, left 1s;
+        right: calc(79% - 330px);
+        position: absolute;
+        margin: 5px 0 0 0;
+        height: 240px;
+        border: none;
+        padding: 0;
+        max-width: 300px;
+        border-radius: 10px;
+        border: 2px solid #ccc;
+        box-shadow: 5px 5px 10px #284454;
+    }
+    
+    section.dif-grid {
+        text-align: none;
+        padding-top: 100px;
+        grid-template-columns: 200px auto;
+        grid-gap: 0px; 
+        width: 60%;
+        padding-left: 30px;
+
+    }
+    section.dif-grid h2{
+        width: 100%;
+        padding-left: 100px;
+        padding-top: 300px;  
+        text-align: center;
+    }
+
+    section.dif-grid p {
+        width: 100%;
+        margin-right: 0px;
+        text-align: none;
+        margin-bottom: 70px;
+    }
+    
+    /* MARGIN- BOTTON AJUSTA ESPACIO EN BLANCO DEL FINAL -THE CAREER- INFO LEGAL */
+    section.df p{
+        width: 100%;
+        padding-left:0px;
+        padding-top: 20px;   
+        text-align: none;       
+    }
+    section.df {
+        width: 70%;        
+    }
+    section.df h3{
+        width: 100%;
+        padding-left:0px;
+        padding-top: 300px;  
+        text-align: center;
+    }
+    section.df img{
+        box-shadow: 1px 1px 20px rgba(0,0,0,0.7);
+        transition: all 0.5s, left 1s;
+        right: calc(79% - 330px);
+        position: absolute;
+        margin: 5px 0 0 0;
+        height: 240px;
+        border: none;
+        padding: 0;
+        max-width: 300px;
+        margin-top: 85px;
+        border-radius: 10px;
+        border: 2px solid #ccc;
+        box-shadow: 5px 5px 10px #284454;       
+    }
+    
+    /* AJUSTAR TEXTO DEL TITULO THE CAREER AL MEDIO */
+    section.df img{
+        box-shadow: 1px 1px 20px rgba(0,0,0,0.7);
+        transition: all 0.5s, left 1s;
+        right: calc(79% - 330px);
+        position: absolute;
+        margin: 5px 0 0 0;
+        height: 240px;
+        border: none;
+        padding: 0;
+        max-width: 300px;
+        margin-top: 85px;
+        border-radius: 10px;
+        border: 2px solid #ccc;
+        box-shadow: 5px 5px 10px #284454;    
+    }
+    
+    .s h3{
+        width: 100%;
+        margin-left: -160px;
+        padding-top: 350px;  
+        text-align: center;
+    }
+    .s p{
+        width: 90%;
+        padding-left: 30px;
+    }
+
+    section.s {
+        margin-bottom: 10px;
+    }
+
+    section.s img{
+        box-shadow: 1px 1px 20px rgba(0,0,0,0.7);
+        transition: all 0.5s, left 1s;
+        left: calc(82% - 345px);
+        margin: 5px 0 0 0;
+        height: 240px;
+        border: none;
+        padding: 0;
+        max-width: 300px;
+        margin-top: 85px;
+        border-radius: 10px;
+        border: 2px solid #ccc;
+        box-shadow: 5px 5px 10px #284454;
+        }
 }
