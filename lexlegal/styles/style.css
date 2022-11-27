@@ -722,7 +722,7 @@ form {
   ul {
     list-style: none;
     padding: 0;
-    margin: 20;
+    /* margin: 20; */
   }
   
   form li + li {
@@ -906,7 +906,7 @@ footer p {
     }
     
     section.dif-grid {
-        text-align: none;
+        text-align:justify;
         padding-top: 100px;
         grid-template-columns: 200px auto;
         grid-gap: 0px; 
@@ -924,7 +924,7 @@ footer p {
     section.dif-grid p {
         width: 100%;
         margin-right: 0px;
-        text-align: none;
+        text-align:justify;
         margin-bottom: 70px;
     }
     
@@ -933,7 +933,7 @@ footer p {
         width: 100%;
         padding-left:0px;
         padding-top: 20px;   
-        text-align: none;       
+        text-align:justify;
     }
     section.df {
         width: 70%;        
