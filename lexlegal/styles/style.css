@@ -314,7 +314,7 @@ section.about {
     grid-template-columns: 300px auto;
     margin-top: -40px;
 
-    /*  esto sirve para dar ancho a la imagen de la segunda recata some things en ABOUT*/
+    /*  ancho a la imagen segunda some things en ABOUT*/
     grid-gap: 50px;
 }
 
