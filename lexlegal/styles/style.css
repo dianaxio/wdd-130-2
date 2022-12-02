@@ -434,12 +434,13 @@ div.photo-spotlight img.img-r1 {
     transform: scale(0.7) rotate3d(0,1,0,-60deg);
     z-index: 5;
 }
-div.photo-spotlight img.img-r2 {
+ div.photo-spotlight img.img-r2 {
     left: calc(50% - 200px + 400px);
     transform-style: preserve-3d;
     transform: scale(0.65) rotate3d(0,1,0,-60deg);
     z-index: 4;
 }
+
 div.photo-spotlight img.img-r3 {
     left: calc(50% - 200px + 500px);
     transform-style: preserve-3d;
@@ -450,7 +451,7 @@ div.photo-spotlight img.img-r4 {
     left: calc(50% - 200px + 600px);
     transform-style: preserve-3d;
     transform: scale(0.55) rotate3d(0,1,0,-60deg);
-    z-index: 2;
+    z-index: 2; 
 }
 div.photo-spotlight img.img-r5 {
     left: calc(50% - 200px + 700px);
@@ -460,20 +461,20 @@ div.photo-spotlight img.img-r5 {
     z-index: 1;
 }
 div.photo-spotlight button {
-    border: solid 0.5px gray;
+    border: solid 0.5px #284454;
     background-color: white;
     font-family: var(--paragraph-font);
     top: calc(50% - 25px);
-    transition: all 0.2s;
-    border-radius: 100%;
+    transition: all 0.3s;
+    border-radius: 35%;
     position: absolute;
     font-weight: bold;
     padding-top: 5px;
-    font-size: 20px;
+    font-size: 30px;
     outline: none;
-    opacity: 0.6;
+    opacity: 0.4;
     height: 50px;
-    width: 50px;
+    width: 30px;
     z-index: 6;
 }
 div.photo-spotlight button:hover {
@@ -485,19 +486,13 @@ div.photo-spotlight button:active {
     transition: none;
 }
 div.photo-spotlight button#go-left {
-    left: -20px;
+    left: -30px;
+    
 }
 div.photo-spotlight button#go-right {
     right: -20px;
 }
-div.cover-header {
-    background-image: url("../images/paper-fixed.jpg");
-    background-position: top;
-    background-attachment: local;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 150px;
-}
+
 main.non-centered > div.cover-header + section, div.cover-header + section + section {
     display: block;
 }
@@ -876,6 +871,7 @@ form {
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+    
     }
 
 .botto-copyright{
@@ -911,9 +907,10 @@ footer h3 {
 footer a {
     color: black;
     text-decoration: none;   
+    
 }
 footer a:hover {
-    color: #374044;
+    color: #C79D55 ;
 }
 footer p {
     padding-top: 50px;

@@ -6,7 +6,10 @@
         <meta name="description" content="Provide information about on legal matters.
          Has a photo showcase that displays a carousel of photos about us.">
         <title>Lex Legal</title>
-        <script src=""></script>
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="styles/about-shifter.js"></script>
+
+        <!-- <script src="images/images/rsz_p.jpg"></script> -->
     </head>
     <body onkeydown="Shift()">
         <div class="About">
@@ -24,18 +27,32 @@
             <div>
             <img src="images/lexlegal.png" alt="website logo"
                 class="web-logo">
+            <h1>Lex Legal</h1></div> 
+            <nav>
+                <ul>
+                    <li><a href="index.html"           class="">Home</a></li>
+                    <li><a href="legal-info.html"      class="">Legal Info</a></li>
+                    <li><a href="about.html"           class="at">About</a></li>
+                    <li><a href="site-plan.html"       class="">Site Plan</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
             <div class="photo-spotlight">
+                <button id="go-left" onclick="Shift('right')">&lt;</button>
                 <div>
-                <img class="img-l4 img-shift" src="images/rsz_bussiness.jpg" alt="">
-                <img class="img-l3 img-shift" src="images/rsz_hands.jpg" alt="">
-                <!-- <img class="img-l2 img-shift" src="images/assistant.jpg" alt="">
+                <img class="img-l4 img-shift" src="images/px.jpg" alt="">
+                <img class="img-l3 img-shift" src="images/negocio.jpg" alt="">
+                <img class="img-l2 img-shift" src="images/assistant.jpg" alt="">
                 <img class="img-l1 img-shift" src="images/rsz_m.jpg" alt="">
-                <img class="img-mc img-shift" src="images/rsz_hands.jpg" alt="">   -->
-                <!-- <img class="img-r1 img-shift" src="images/rsz_pexels.jpg" alt=""> -->
-                <!-- <img class="img-r5 img-shift" src="images/pl.jpg" alt=""> -->
+                <img class="img-mc img-shift" src="images/rsz_hands.jpg" alt="">  
+                <img class="img-r1 img-shift" src="images/rsz_pexels.jpg" alt="">
+                <img class="img-r2 img-shift" src="images/px.jpg" alt="">
+                <img class="img-r3 img-shift" src="images/negocio.jpg" alt="">
+                <img class="img-r4 img-shift" src="images/assistant.jpg" alt="">
+                <img class="img-r5 img-shift" src="images/pl.jpg" alt="">
                 </div>
+                <button id="go-right" onclick="Shift('left')">&gt;</button>
             </div>
             <section class="not-grid">
                 <h2>About Us</h2>
@@ -47,9 +64,9 @@
                 </p>
             </section>
             <section class="about">
-                <img src="images/rsz_pexels-olia.jpg" alt="">
+                <img src="images/rsz_p.jpg" alt="">
                 <div>
-                    <h4>Leading Force</h4>
+                    <h4>.</h4>
                     <p>
                         Some things in the legal profession—like smart, sustainable growth—take time and care. 
                         Our sales-minded lawyer virtual receptionists or legal virtual assistants engage 
@@ -62,7 +79,7 @@
                 </div>
             </section>
             <section class="not-grid">
-                <!-- <h3>Leading Force</h3> -->
+                <h3>Leading Force</h3>
                 <div class="facts"></div>
                     <p>Lex Legal provides current information about the legal assistant profession through 
                         continuing education,  networking opportunities, professional certification programs, 
