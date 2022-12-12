@@ -501,7 +501,6 @@ main.non-centered h2 {
 }
 ul {
     font-family: var(--paragraph-font);
-    list-style-type: '♦️  ';
 }
 input[type="number"] {
     width: 2.5em;
